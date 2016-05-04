@@ -19,7 +19,7 @@ app.get('/webhook', function (req, res) {
   res.send('Error, wrong validation token');
 })
 
-var token = "EAADtXtsKKMMBAHJD117T0aPzQfoNfkqkIRk32Ell397euYjFnTcYX8ZCacDiA9xABwcTcLb8C4dn6qAJJjMUiUn5hgHCW0Y52xay88eMNuog58MuPyR8h8ZCNQBarWzgoaiIPxuWrQnIePAD4cN9FHKbbwVNhLT1ctMDN3SgZDZD";
+var token = "INSERT TOKEN";
 
 function sendTextMessage(sender, text) {
   messageData = {
