@@ -1,0 +1,25 @@
+{
+  "name": "jarvisbot",
+  "version": "1.0.0",
+  "description": "facebook chat bot",
+  "main": "app.js",
+  "scripts": {
+    "test": "no",
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RobertRiachi/jarvisbot.git"
+  },
+  "author": "Robert jr. Riachi",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/RobertRiachi/jarvisbot/issues"
+  },
+  "homepage": "https://github.com/RobertRiachi/jarvisbot#readme",
+  "dependencies": {
+    "body-parser": "^1.15.0",
+    "express": "^4.13.4",
+    "request": "^2.72.0"
+  }
+}
